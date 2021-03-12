@@ -1,0 +1,117 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.maincontainer {
+    display: flex;
+    height: 100vh;
+    background-color: dodgerblue;
+    background-image: url('/images/form2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    /* align-items:center;
+    justify-content: center; */
+
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.formcontainer{
+    display: flex;
+    height: 450px;
+    width: 350px;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.headerdiv{
+    display: flex;
+    background-color:white;
+    flex: 0.1;
+}
+
+.imagediv{
+    display: flex;
+    /* background-color: green; */
+    flex: 0.4;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputdiv{
+    display: flex;
+    /* background-color: yellowgreen; */
+    flex: 0.25;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: space-around;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.buttondiv{
+    display: flex;
+    background-color: white;
+    flex: 0.15;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.footerdiv{
+    display: flex;
+    background-color:white;
+    flex: 0.1;
+    align-items: center;
+    justify-content: center;
+}
+
+.myinputfields{
+    /*this value applies to all sides of the element*/
+    /* padding:30px;     */
+
+    /*the first value is for top and bottom
+    the second value is for left and right**/
+    /* padding: 15px 35px; */
+
+    /**the first value is for the top,
+    second value for right and left
+    third value for bottom*/
+    /* padding:20px 15px 10px; */
+
+    /*the first value for the top
+    second value for the right
+    third value for the bottom
+    fourth value for the left*/
+    /* padding:10px 20px 40px 15px; */
+
+    padding:10px 5px;
+    border-radius: 5px;
+    
+    /* border-style: double;
+    border-width: 2px;
+    border-color: gray; */
+    border: 2px double gray;
+}
+.form-image{
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+}
+.form-button{
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+    border-radius: 10px;
+    border: 2px double transparent;
+    background-color: blueviolet;
+    color: white
+}
+.style{
+    text-decoration: none;
+}
+
